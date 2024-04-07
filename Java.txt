@@ -1,0 +1,205 @@
+class Main
+{
+    public static void main(String[] args)
+    {
+        System.out.println("hello world");
+        System.out.println("good morning");
+        System.out.println(100 + 300);
+        System.out.println("100 + 300");
+        System.out.println("Hello");
+    }
+}
+
+=======================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+class Main
+{
+    public static void main(String[] args)
+    {
+        int num1 = 100;
+        int num2 = 200;
+       int sum = num1 + num2;
+        System.out.println(sum);
+    }
+}
+
+===================================================================================================================================
+
+
+class Arthemetic {
+    public static void main(String[] args) {
+        int num1 = 47;
+        int num2 = 74;
+       int result = num2/num1;
+        int result2 = num2%num1;
+        int sum = num2 + num1;
+        int difference = num2 - num1;
+        int product = num2 * num1;
+        
+        
+        System.out.println("num1 = 47");
+         System.out.println("num2 = 74");
+        System.out.println("quotient is " + result);
+         System.out.println("remainder is " + result2);
+ System.out.println("sum is " + sum);System.out.println("product is " + product);
+         System.out.println("difference is " + difference);
+         
+        
+    }
+}
+
+===============================================================================================================
+
+scannerclass
+
+
+
+import java.util.Scanner;
+class Main
+{ 
+    public static void main (String [] args)
+    
+    {
+     Scanner sc = new Scanner(System.in);
+     System.out.println("enter num 1");
+     int num1 = sc.nextInt();
+     System.out.println("ente num 2");
+    int num2 = sc.nextInt();
+    
+    int sum = num1 + num2;
+    int difference = num2 - num1;
+    int product = num2 * num1;
+    int quotient = num1 / num2;
+    int mod = num1 % num2;
+    
+    System.out.println("the sum is " + sum);
+    System.out.println("the difference is " + difference);
+    System.out.println("the product is " + product);
+    System.out.println("the quotient is " + quotient);
+    System.out.println("the remainder is " + mod);
+    }
+    
+}
+
+
+================================================================================================================
+square of a num
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a num1");
+        int num1 = sc.nextInt();
+        
+        int square = num1 * num1; 
+        
+        System.out.println("The square of  " + num1 + " is " + square);     
+        }
+}
+
+
+==================================================================================================================
+
+program to print your name and age
+
+
+
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your name");
+        String name =sc.next();
+        
+        System.out.println("Enter your age");
+        int age = sc.nextInt();
+        
+        System.out.println("my name is " + name + " and I am " + age + "years old.");
+    }
+}
+
+===================================================================================================================
+
+
+// program to print the simple intrest
+
+import java.util.Scanner;
+class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the principle");
+        int principle = sc.nextInt();
+        
+        System.out.println("Enter the rate");
+        int rate = sc.nextInt();
+        
+        System.out.println("Enter the time");
+        int time = sc.nextInt();
+        
+        int SI = (principle * rate * time)/100;
+        
+        System.out.println("the SI is " + SI);
+    }
+
+
+================================================================================
+
+
+// program to find maximum of 3 nums
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the first number");
+        int num1 = sc.nextInt();
+        
+        System.out.println("enter the second number");
+        int num2 = sc.nextInt();
+        
+        System.out.println("enter the third number");
+        int num3 = sc.nextInt();
+        
+        if(num1 > num2 && num1 > num3)
+        {
+           System.out.println(num1 + " is greater than " + num2 + " and " + num3);
+        }
+        else if(num2 > num3 && num2 > num1){
+            System.out.println(num2 + " is greater than " + num1 + " and " + num3);
+        }
+            
+            else
+            {
+                System.out.println(num3 + " is greater than " + num2 + " and " + num1);
+            }
+        
+        
+    }
+}
+
+
+=================================================================================
+
+
+// program to check if the given yer is leap year
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a year");
+        int yr = sc.nextInt();
+        
+        if(yr % 4 == 0)
+        {
+            System.out.println(yr + " is a leap year.");
+        }
+        else
+        {
+            System.out.println(yr + " is not a leap year.");
+        }
+    }
+}
+
+========================================================================================
